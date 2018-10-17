@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CloothBazar.Entities", "Clo
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CloothBazar.DataBasee", "CloothBazar.DataBasee\CloothBazar.DataBasee.csproj", "{1F768DE4-B6FA-443F-89D1-20EAC3A8301D}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CloothBazar.Services", "CloothBazar.Services\CloothBazar.Services.csproj", "{58F53816-C863-4CEE-AEB9-A5365BCE5D7A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{1F768DE4-B6FA-443F-89D1-20EAC3A8301D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1F768DE4-B6FA-443F-89D1-20EAC3A8301D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1F768DE4-B6FA-443F-89D1-20EAC3A8301D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{58F53816-C863-4CEE-AEB9-A5365BCE5D7A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{58F53816-C863-4CEE-AEB9-A5365BCE5D7A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{58F53816-C863-4CEE-AEB9-A5365BCE5D7A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{58F53816-C863-4CEE-AEB9-A5365BCE5D7A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

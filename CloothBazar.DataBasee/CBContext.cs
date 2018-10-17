@@ -8,14 +8,15 @@ using System.Threading.Tasks;
 
 namespace CloothBazar.DataBasee
 {
-    public class CBContext :DbContext
+    public class CBContext :DbContext,IDisposable
     {
         public CBContext() :base("WebAnuvConnection")
         {
 
         }
-        public DbSet<Category> categories { get; set;}
+        public DbSet<Category> Products { get; set;}
 
-        public DbSet<Product> products { get; set; }
+        public DbSet<Product> Product { get; set; }
+        public object Categories { get; set; }
     }
 }
